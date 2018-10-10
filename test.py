@@ -20,8 +20,8 @@ safe_link = cfg.safe_link
 
 debug = 0
 
-def checkweather(city_name):
-    site = 'https://www.sojson.com/open/api/weather/json.shtml?city={:s}'.format(city_name)
+def checkweather(city_code):
+    site = cfg.api_url + str(city_code)
     webinfo = urllib2.urlopen(site)
 
     content = webinfo.read()

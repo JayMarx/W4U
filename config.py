@@ -15,6 +15,9 @@ __C.password = 'xxx'    # 微博密码
 __C.safe_link = 'xxx'   # 微博安全链接
 
 __C.city = {
-    '上海': '上海',
-    '北京': '北京',
-    '宜昌': '宜昌'}
+    '上海': 101020100,
+    '闵行区': 101020200,
+    '北京': 101010100,
+    '宜昌': 101200901}
+
+__C.api_url = 'http://t.weather.sojson.com/api/weather/city/'
